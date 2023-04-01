@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       colors: {
         'maingreen': '#0D723C',
+        'backgroundSet': '#212121',
+        'greenbet': '#43E143',
+        'greenletters': '#00AB00',
       },
     },
   },
