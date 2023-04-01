@@ -32,3 +32,19 @@ if(bot) {
   console.log('\x1b[32mUhul, Delphbot is running. Please run command \x1b[33m/sinais\x1b[32m in Telegram to send a new bet hint.\x1b[0m');
 
 }
+
+// To delete all images..
+
+// function deleteImageMessages() {
+//   const groupChatId = chatId; // replace with the ID of your group chat
+//   const interval = 3 * 60 * 1000; // delete images every 3 minutes in milliseconds ( 3 minutes )
+  
+//   setInterval(() => {
+//     const messages = await client.getChatById(groupChatId).getMessages();
+//     for (const message of messages) {
+//       if (message.type === 'image') {
+//         await message.delete();
+//       }
+//     }
+//   }, interval);
+// }
